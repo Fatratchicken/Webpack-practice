@@ -1,1 +1,1 @@
-alert("Webpack is running!");
+import  "./styles.css";
