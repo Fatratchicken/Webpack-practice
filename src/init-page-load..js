@@ -1,0 +1,5 @@
+function pageLoad(){
+    
+}
+
+export {pageLoad};
