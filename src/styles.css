@@ -68,6 +68,9 @@ button:hover{
 
 /* for js generated dom elements */
 .mainBg{
+    display: flex;
+    flex-direction: column;
+
     background-color: var(--pakistan-green);
 
     height: 1000px;
@@ -115,5 +118,7 @@ button:hover{
     background-color: var(--dark-moss-green);
 
     padding: 20px;
+
+    flex: 1;
 }
 

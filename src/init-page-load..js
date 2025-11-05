@@ -22,7 +22,7 @@ function pageLoad(){
     // text description of the place: 
     const description = document.createElement('p');
     const descriptionString = "\"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae exercitationem natus ea esse enim quod consequatur, unde quis, deleniti velit sint sed eius iure blanditiis non nisi error dolore! Similique\"."
-    description.textContent = descriptionString.repeat(5);
+    description.textContent = descriptionString.repeat(4);
     description.classList.add('description');
     mainBg.appendChild(description);
 
