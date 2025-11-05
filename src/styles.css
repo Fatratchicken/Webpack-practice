@@ -64,6 +64,11 @@ button {
 
 button:hover{
     background-color: var(--pakistan-green);
+
+    border-top: 2px solid var(--earth-yellow);
+    border-left: 2px solid var(--earth-yellow);
+    border-right: 2px solid var(--earth-yellow);
+    border-bottom: 3px solid transparent;
 }
 
 /* for js generated dom elements */
