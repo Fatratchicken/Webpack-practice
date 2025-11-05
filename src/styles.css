@@ -8,13 +8,17 @@
 
 body{
     box-sizing: border-box;
+
+    background-image: url("./media/forest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
 
 header {
-    background-color: var(--earth-yellow);
+    background-color: var(--pakistan-green);
     height: 80px;
 }
 
@@ -42,11 +46,11 @@ button {
     font-size: 1.5em;
     font-weight: 700;
 
-    background-color: var(--tigers-eye);
+    background-color: var(--dark-moss-green);
     color: var(--cornsilk);
 
 
-    padding: 20px;
+    padding: 15px;
     width: 200px; 
     border: 0;
 
@@ -55,5 +59,5 @@ button {
 }
 
 button:hover{
-    background-color: var(--dark-moss-green);
+    background-color: var(--pakistan-green);
 }
