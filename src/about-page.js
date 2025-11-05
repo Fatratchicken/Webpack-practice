@@ -1,0 +1,5 @@
+function aboutLoad(){
+
+}
+
+export { aboutLoad };
