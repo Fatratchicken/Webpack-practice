@@ -30,6 +30,7 @@ function tabSelect(tab){
 
         case TABS.ABOUT:
             aboutLoad();
+            break;
     }
 }
 
@@ -39,7 +40,8 @@ const tabList = document.querySelector('#tabs');
 tabList.addEventListener('click', (event) => {
     const targetId = event.target.id;
 
-    if (targetId != ""){
+    // make sure its one of the buttons
+    if (Object.values(TABS).includes(targetId)){
         tabSelect(targetId);
     }
 })
